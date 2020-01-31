@@ -13,9 +13,9 @@
 # 'I LOVE YOU TOO PUMPKIN!'
 
 
-def speak_to_grandma(speak)
+def speak_to_grandma(phrase)
   
-  if speak == speak.downcase
+  if phrase == speak.downcase
     puts "HUH?! SPEAK UP, SONNY!"
   else if speak == "I LOVE YOU GRANDMA!"
     puts "I LOVE YOU TOO PUMPKIN!"
@@ -25,21 +25,21 @@ def speak_to_grandma(speak)
 end
 
 
-def speak_to_grandma(phrase)
+#/def speak_to_grandma(phrase)
 
-    if phrase == "I LOVE YOU GRANDMA!"
-      return "I LOVE YOU TOO PUMPKIN!"
+  #  if phrase == "I LOVE YOU GRANDMA!"
+   #   return "I LOVE YOU TOO PUMPKIN!"
+   #
+    #elsif phrase == phrase.downcase
+  	#	return "HUH?! SPEAK UP, SONNY!"
+    #elsif phrase == phrase.downcase
+     # return "HUH?! SPEAK UP, SONNY!"
+    #elsif phrase == phrase.upcase
+     # return "NO, NOT SINCE 1938!"
    
-    elsif phrase == phrase.downcase
-  		return "HUH?! SPEAK UP, SONNY!"
-    elsif phrase == phrase.downcase
-      return "HUH?! SPEAK UP, SONNY!"
-    elsif phrase == phrase.upcase
-      return "NO, NOT SINCE 1938!"
-   
-    else
-  		return "NO, NOT SINCE 1938!"
-    end
+    #else
+  	#	return "NO, NOT SINCE 1938!"
+    #end
 
-end
+#end
 
