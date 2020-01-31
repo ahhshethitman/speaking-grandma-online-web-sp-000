@@ -13,17 +13,20 @@
 # 'I LOVE YOU TOO PUMPKIN!'
 
 
-#def speak_to_grandma(phrase)
+def speak_to_grandma(phrase)
   
- # if phrase == "I LOVE YOU GRANDMA!"
-  #  puts "I LOVE YOU TOO PUMPKIN!"
- #else if phrase == phrase.downcase
-  #  puts "HUH?! SPEAK UP, SONNY!"
-  #else
-   # puts "NO, NOT SINCE 1938!"
-  #end
-#end
-#end
+  if phrase == "I LOVE YOU GRANDMA!"
+   puts "I LOVE YOU TOO PUMPKIN!"
+ 
+ else if phrase == phrase.downcase
+  puts "HUH?! SPEAK UP, SONNY!"
+  
+ else
+  puts "NO, NOT SINCE 1938!"
+  
+  end
+end
+
 
 def speak_to_grandma(phrase)
 
