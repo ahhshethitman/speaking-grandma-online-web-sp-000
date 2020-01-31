@@ -28,17 +28,17 @@ def speak_to_grandma(phrase)
 end
 
 
-def speak_to_grandma(phrase)
+#def speak_to_grandma(phrase)
 
-   if phrase == "I LOVE YOU GRANDMA!"
-      return "I LOVE YOU TOO PUMPKIN!"
+ #  if phrase == "I LOVE YOU GRANDMA!"
+  #    return "I LOVE YOU TOO PUMPKIN!"
    
-    elsif phrase == phrase.downcase
-  		return "HUH?! SPEAK UP, SONNY!"
+   # elsif phrase == phrase.downcase
+  	#	return "HUH?! SPEAK UP, SONNY!"
    
-    else
-  		return "NO, NOT SINCE 1938!"
-    end
+    #else
+  	#	return "NO, NOT SINCE 1938!"
+    #end
 
-end
+#end
 
